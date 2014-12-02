@@ -1,10 +1,10 @@
 // Package go_subrepo_import tests that srclib-go properly resolves imports of
-// Go subrepositories (code.google.com/p/go.*).
+// Go subrepositories (golang.org/x/*).
 package go_subrepo_import
 
 import (
-	"code.google.com/p/go.net/ipv6"
-	"code.google.com/p/go.tools/go/types"
+	"golang.org/x/net/ipv6"
+	"golang.org/x/tools/go/types"
 )
 
 func Foo() {
