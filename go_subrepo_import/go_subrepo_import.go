@@ -3,8 +3,8 @@
 package go_subrepo_import
 
 import (
+	"go/types"
 	"golang.org/x/net/ipv6"
-	"golang.org/x/tools/go/types"
 )
 
 func Foo() {
